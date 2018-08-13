@@ -14,3 +14,4 @@ Other concepts to include
 https://developer.okta.com/blog/2017/10/19/use-openid-connect-to-build-a-simple-node-website
 4. Authentication can be managed by token or session management
 5. At the infrastructure level, we can use deployment manager tools like PM2, Docker Compose and Kubernetes to specify the environment.
+
