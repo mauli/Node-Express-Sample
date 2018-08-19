@@ -11,22 +11,21 @@ router.use((req, res, next) => {
 });
 
 router.get('/', authenticate, function (req, res) {
-    res.status(200).json({ message: "Post deleted!" });
+    res.status(200).json({ message: 'Post deleted!' });
 });
 
 router.post('/', authenticate, function (req, res) {
     console.log('req1==' , req.body);
-    res.status(201).json({ message: "Posted1"});
+    res.status(201).json({ message: 'Posted1'});
 });
 
-router.post("/fileupload", authenticate, upload.single("image"),
+router.post('/fileupload', authenticate, upload.single('image'),
     (req, res, next) => {
       console.log('path ==',  __dirname + '/uploads');
     
         res.status(201).json({
-                  message: "Post added successfully1"
-    
-      });
+            message: 'Post added successfully1'
+        });
     }
 );
   

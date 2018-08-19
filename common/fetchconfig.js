@@ -8,7 +8,4 @@ function loadConfig(loadOptions){
     global.envData = configEnv;
 }
 
-
-
-
 module.exports = {loadConfig: loadConfig};

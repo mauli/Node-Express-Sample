@@ -6,6 +6,7 @@ This project includes
 5. Acces Mongo DB
 6. Logging 
 7. Clustering to take advantage of multi core 
+8. using GLOB pattern and gulp for automating tasks(hinting,minifying etc)
 
 Other concepts to include
 1. Use Reddis/memcached cache for token management

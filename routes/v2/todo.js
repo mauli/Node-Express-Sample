@@ -8,10 +8,10 @@ router.use((req, res, next) => {
 });
 
 router.get('/', function (req, res) {
-    res.status(200).json({ message: "Post deleted from v2!" });
+    res.status(200).json({ message: 'Post deleted from v2!'});
 });
 router.post('/', function (req, res) {
-    res.status(200).json({ message: "Posted from v2"});
+    res.status(200).json({ message: 'Posted from v2'});
 });
 
 
